@@ -7,5 +7,12 @@ name = "fastpipeline"
 version = "0.1.0"
 
 [[package]]
+name = "psh_ast"
+version = "0.1.0"
+dependencies = [
+ "psh_lexer",
+]
+
+[[package]]
 name = "psh_lexer"
 version = "0.1.0"
