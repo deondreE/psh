@@ -14,5 +14,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "psh_compiler"
+version = "0.1.0"
+dependencies = [
+ "psh_ast",
+ "psh_lexer",
+]
+
+[[package]]
 name = "psh_lexer"
 version = "0.1.0"
