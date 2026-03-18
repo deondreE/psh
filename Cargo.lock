@@ -24,3 +24,11 @@ dependencies = [
 [[package]]
 name = "psh_lexer"
 version = "0.1.0"
+
+[[package]]
+name = "psh_vm"
+version = "0.1.0"
+dependencies = [
+ "psh_compiler",
+ "psh_lexer",
+]
